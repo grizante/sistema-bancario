@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: monolith-api
+  datasource:
+    url: jdbc:postgresql://localhost:5434/postgres
+    username: postgres
+    password: pass
+  jpa:
+    hibernate:
+      ddl-auto: create
+    open-in-view: true
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /docs
